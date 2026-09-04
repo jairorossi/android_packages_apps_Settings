@@ -28,8 +28,6 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
 
     private static final String TAG = "lineageVersionDialogCtrl";
 
-    private static final String KEY_LINEAGE_VERSION_PROP = "ro.modversion";
-
     public LineageVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
     }
@@ -51,8 +49,7 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_LINEAGE_VERSION_PROP,
-                mContext.getString(R.string.unknown));
+        return "crDroid Raphael Edition - by Jairo";
     }
 
     @Override
