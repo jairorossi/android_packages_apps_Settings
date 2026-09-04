@@ -400,6 +400,11 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
     @Override
     protected void onStart() {
         super.onStart();
+        if (mCanAssumeUdfps) {
+            android.view.WindowManager.LayoutParams lp = getWindow().getAttributes();
+            lp.screenBrightness = 1.0f;
+            getWindow().setAttributes(lp);
+        }
         updateProgress(false /* animate */);
         updateTitleAndDescription();
         if (mRestoring) {
