@@ -3373,7 +3373,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="firmware_version">Android version</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">IronPROJECT version</string>
+    <string name="custom_firmware_version">ComicsOS version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <string name="custom_firmware_uri" translatable="false">Ralf979</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
@@ -13639,5 +13639,5 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
 
-    <string name="iron_version">MacteAnimo</string>
+    <string name="iron_version">Zero</string>
 </resources>

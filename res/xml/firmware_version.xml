@@ -23,8 +23,8 @@
 
     <!-- Iron logo -->
     <PreferenceScreen
-        android:key="iron_logo"
-        android:layout="@layout/iron_logo"
+        android:key="comics_logo"
+        android:layout="@layout/comics_logo"
         android:selectable="false"/>
 
     <!-- Android version -->

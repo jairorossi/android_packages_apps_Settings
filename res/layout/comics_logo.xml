@@ -19,9 +19,9 @@
         android:gravity="center">
 
  <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/ic_iron_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_comics_logo"
         android:layout_gravity="center"
         android:gravity="center"
         android:scaleType="fitCenter"/>
