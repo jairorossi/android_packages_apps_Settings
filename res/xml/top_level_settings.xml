@@ -97,6 +97,15 @@
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.fork.CustomSettings"
+        android:icon="@drawable/ic_theme"
+        android:key="top_level_custom_settings"
+        android:order="-75"
+        android:title="@string/custom_settings_title"
+        android:summary="@string/custom_settings_summary"
+        settings:highlightableMenuKey="@string/menu_key_display"/>
+
     <com.android.settings.widget.RestrictedHomepagePreference
         android:icon="@drawable/ic_settings_wallpaper_white"
         android:key="top_level_wallpaper"

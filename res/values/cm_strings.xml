@@ -502,4 +502,19 @@
 
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <!-- Custom Settings -->
+    <string name="custom_settings_title">Customizations</string>
+    <string name="custom_settings_summary">Theming, status bar, lockscreen and more</string>
+    <string name="theme_customization_category">Theme &amp; Style</string>
+    <string name="status_bar_customization_category">Status Bar</string>
+    <string name="lockscreen_customization_category">Lock Screen</string>
+    <string name="biometrics_vibration_category">Biometrics &amp; Vibration</string>
+    <string name="notifications_flashlight_category">Notifications &amp; Flashlight</string>
+    <string name="theme_customization_icon_pack_summary">Change the icon pack style</string>
+    <string name="theme_customization_font_summary">Change the system font style</string>
+    <string name="theme_customization_icon_shape_summary">Change the icon shape</string>
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_summary">Choose the mobile network icon style</string>
+    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Choose the WiFi network icon style</string>
 </resources>

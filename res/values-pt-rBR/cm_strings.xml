@@ -95,4 +95,90 @@
     <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
     <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela ao ligar ou desligar do carregador</string>
     <string name="fast_charging_title">Carregamento rápido</string>
+    <!-- Customizations / Personalizações -->
+    <string name="custom_settings_title">Personalizações</string>
+    <string name="custom_settings_summary">Temas, barra de status, tela de bloqueio e mais</string>
+    <string name="theme_customization_category">Tema e estilo</string>
+    <string name="status_bar_customization_category">Barra de status</string>
+    <string name="lockscreen_customization_category">Tela de bloqueio</string>
+    <string name="biometrics_vibration_category">Biometria e vibração</string>
+    <string name="notifications_flashlight_category">Notificações e lanterna</string>
+
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Motor Monet</string>
+    <string name="monet_engine_summary">Personalizar cores e parâmetros do tema Monet</string>
+    <string name="monet_engine_custom_color_title">Usar cor personalizada</string>
+    <string name="monet_engine_custom_color_summary">Usar cor personalizada para o tema em vez das cores do papel de parede</string>
+    <string name="monet_engine_color_override_title">Cor personalizada</string>
+    <string name="monet_engine_white_luminance_user_title">Luminância do branco</string>
+    <string name="monet_engine_accurate_shades_title">Usar tonalidades precisas</string>
+    <string name="monet_engine_chroma_factor_title">Fator de saturação (Chroma)</string>
+    <string name="monet_engine_linear_lightness_title">Usar luminosidade linear</string>
+
+    <!-- Theming styles -->
+    <string name="theme_customization_icon_pack_title">Pacote de ícones</string>
+    <string name="theme_customization_icon_pack_summary">Alterar o pacote de ícones dos apps</string>
+    <string name="theme_customization_font_summary">Alterar a fonte do sistema</string>
+    <string name="theme_customization_icon_shape_summary">Alterar a forma geométrica dos ícones</string>
+    <string name="theme_customization_signal_icon_title">Estilo do ícone de sinal</string>
+    <string name="theme_customization_signal_icon_summary">Escolha o estilo dos ícones de rede móvel</string>
+    <string name="theme_customization_wifi_icon_title">Estilo do ícone Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Escolha o estilo do ícone de rede Wi-Fi</string>
+
+    <!-- Traffic -->
+    <string name="traffic_title">Indicador de tráfego</string>
+    <string name="network_traffic_state_summary">Exibir velocidade da rede na barra de status</string>
+
+    <!-- Status bar icons -->
+    <string name="show_fourg_icon_title">Exibir 4G em vez de LTE</string>
+    <string name="show_fourg_icon_summary">Substituir o indicador de dados LTE por 4G</string>
+    <string name="data_disabled_icon_title">Exibir ícone de dados desativados</string>
+    <string name="data_disabled_icon_summary">Exibir ícone no sinal quando os dados móveis estiverem desligados</string>
+    <string name="combined_status_bar_signal_icons">Combinar ícones de sinal</string>
+    <string name="combined_status_bar_signal_icons_summary">Combinar ícones de rede celular e Wi-Fi na barra de status</string>
+
+    <!-- Privacy indicators -->
+    <string name="location_privacy_indicator_title">Indicador de privacidade de localização</string>
+    <string name="location_privacy_indicator_summary">Exibir indicador quando algum aplicativo estiver usando a localização</string>
+    <string name="mic_camera_privacy_indicator_title">Indicador de microfone e câmera</string>
+    <string name="mic_camera_privacy_indicator_summary">Exibir indicador separado quando qualquer app estiver usando microfone ou câmera</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_battery_info_title">Informações de carregamento</string>
+    <string name="lockscreen_battery_info_summary">Exibir corrente, voltagem, potência e temperatura na tela de bloqueio</string>
+    <string name="disable_qs_title">Ocultar Configurações Rápidas na tela bloqueada</string>
+    <string name="disable_qs_summary">Oculta o painel de configurações rápidas com a tela bloqueada por segurança</string>
+    <string name="lockscreen_power_menu_disabled_title">Desativar menu de energia na tela de bloqueio</string>
+    <string name="lockscreen_power_menu_disabled_summary">Desativa o menu de desligar quando a tela estiver bloqueada por segurança</string>
+    <string name="double_tap_sleep_anywhere_title">Toque duplo para suspender</string>
+    <string name="double_tap_sleep_anywhere_summary">Toque duas vezes em qualquer lugar da tela de bloqueio para desligar a tela</string>
+
+    <!-- Biometrics & Haptic Feedback -->
+    <string name="enable_fingerprint_ripple_effect_title">Efeito cascata / ondulação</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Exibir animação circular ao desbloquear com impressão digital</string>
+    <string name="fprint_success_vib_title">Vibração ao autenticar digital</string>
+    <string name="fprint_success_vib_summary">Vibrar quando a digital for autenticada com sucesso</string>
+    <string name="fprint_error_vib_title">Vibração em erro da digital</string>
+    <string name="fprint_error_vib_summary">Vibrar quando a digital falhar na autenticação</string>
+    <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos blocos das Configurações Rápidas</string>
+
+    <!-- Flashlight & Notifications -->
+    <string name="flashlight_on_call_title">Piscar lanterna em chamadas recebidas</string>
+    <string name="flashlight_on_call_disabled">Desativado</string>
+    <string name="flashlight_on_call_ringer">Quando estiver tocando</string>
+    <string name="flashlight_on_call_no_ringer">Quando o toque estiver no silencioso</string>
+    <string name="flashlight_on_call_silent">Totalmente silencioso (sem toque ou vibração)</string>
+    <string name="flashlight_on_call_always">Sempre</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Ignorar Não Perturbe</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Piscar a lanterna mesmo no modo Não Perturbe</string>
+    <string name="flashlight_on_call_rate_title">Frequência da lanterna</string>
+    <string name="flashlight_on_call_rate_summary">Velocidade da piscada da lanterna em chamadas</string>
+    <string name="flashlight_category">Lanterna</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Substituir notificações flutuantes por uma barra compacta estilo ticker</string>
+    <string name="reticker_colored_title">Usar cor de fundo do app</string>
+    <string name="reticker_colored_summary">Usar a cor primária do app como fundo da notificação reTicker</string>
 </resources>

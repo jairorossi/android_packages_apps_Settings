@@ -65,10 +65,5 @@
         settings:keywords="@string/keywords_dark_ui_mode"
         android:persistent="true" />
 
-    <lineageos.preference.LineageSystemSettingSwitchPreference
-        android:key="berry_black_theme"
-        android:dependency="dark_ui_activated"
-        android:title="@string/berry_black_theme_title"
-        android:summary="@string/berry_black_theme_summary"
-        android:defaultValue="false" />
+
 </PreferenceScreen>
